@@ -28,7 +28,7 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
   endif()
 endif()
 
-add_executable(PongRaylib main.cpp)
+add_executable(PongRaylib main.cpp ball.hpp ball.cpp paddle.hpp paddle.cpp aipaddle.hpp aipaddle.cpp)
 
 target_link_libraries(${PROJECT_NAME} raylib)
 
