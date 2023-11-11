@@ -43,7 +43,7 @@ float Paddle::height() const
 //-----------------------------------------------------------------------------
 void Paddle::draw()
 {
-    DrawRectangle(m_x, m_y, m_width, m_height, WHITE);
+    DrawRectangle(m_x, m_y, m_width, m_height, LIME);
 }
 
 //-----------------------------------------------------------------------------
