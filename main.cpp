@@ -42,6 +42,7 @@ int main()
 
         // Drawing objects
         ClearBackground(SKYBLUE);
+        DrawCircle(WIDTH/2, HEIGHT / 2, 100, LIME);
         DrawLine(WIDTH / 2, 0, WIDTH / 2, HEIGHT, WHITE);
         ball->draw();
         player->draw();
